@@ -14,12 +14,3 @@ RUN composer install --no-dev --ignore-platform-req=ext-intl
 
 EXPOSE 10000
 CMD php artisan serve --host=0.0.0.0 --port=10000
-E
-RUN composer install --no-dev --ignore-platform-req=ext-intl
-
-EXPOSE 10000
-CMD php artisan serve --host=0.0.0.0 --port=10000
-EOFRUN composer install --no-dev --ignore-platform-req=ext-intl
-
-EXPOSE 10000
-CMD php artisan serve --host=0.0.0.0 --port=10000
